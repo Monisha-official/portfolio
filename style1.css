@@ -4,12 +4,15 @@ body{
 }
 
 
-.side{
+.box{
     height: 700px;
     width: 250px;
     border-radius: 0%;
     background-color:grey;
     margin: 3px;
+    gap: 200vh;
+    position:fixed; 
+    margin-left: 200px;
 }
 img{
     margin-left: 10px;
@@ -23,8 +26,8 @@ h1{
    display: inline;
    background-color: grey;
    height: 800px;
-   width: 600px;
-   
+   width: 700px;
+   margin-left: 600px;
 }
 button{
     width: 150px;
@@ -53,7 +56,30 @@ p{
 nav,li,ul{
     display: inline;
     padding: 20px;
+    background-color:darkgrey;
 }
 abt{
     display: inline;
+}
+.nav{
+    border-width: 10px;
+    border-radius: 50px;
+    border-color:blue ;
+    height: 30px;
+    width: 900px; 
+    padding-left: 90px;
+    margin-top: 20px;
+}
+.web1{
+    background-color:darkgray;
+    color: white;
+    height: 80px;
+    width: 250px;
+    border-color: aqua;
+    border-radius: 10px;
+    border-width: 50px;
+    display: inline-block;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: 20px;
 }
